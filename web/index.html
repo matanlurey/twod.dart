@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>twod.dart: A ~122kb webgl 2D sprite renderer</title>
+  <style>
+    html,
+    body,
+    canvas {
+      display: block;
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      background-color: rgba(48, 102, 169, 0.94);
+      color: #fff;
+      height: 50px;
+    }
+
+    header {
+      padding: 5px;
+    }
+
+    header h1,
+    header h5 {
+      margin: 0 10px;
+    }
+
+    header h1 {
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    header h5 {
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>twod.dart</h1>
+      <h5>A ~?kb webgl 2d sprite renderer (for Dart)</h5>
+    </div>
+  </header>
+  <main id="view"></main>
+  <footer></footer>
+  <script type="text/javascript" src="main.dart.js"></script>
+</body>
+</html>
